@@ -8,34 +8,34 @@ from pyrogram import filters
 load_dotenv()
 
 # Telegram API credentials - Get these from the Telegram API website
-API_ID = int(getenv("API_ID")) #⚠️fill or leave
-API_HASH = getenv("API_HASH") #⚠️fill or leave
-BOT_TOKEN = getenv("BOT_TOKEN") #⚠️fill or leave 
+API_ID = int(getenv("25488022")) #⚠️fill or leave
+API_HASH = getenv("0c999a454fddd79251213be7944811e8") #⚠️fill or leave
+BOT_TOKEN = getenv("7124627930:AAEcTz8_pNhjM_4C1bHHp9gL-jpmDB86W0w") #⚠️fill or leave 
 
 # Specify where to get the following credentials
-OWNER_USERNAME = getenv("OWNER_USERNAME", "MrBrokn") #⚠️replace 
-BOT_USERNAME = getenv("BOT_USERNAME", "MISS_YUMIPRO_BOT") #⚠️replace
-BOT_NAME = getenv("BOT_NAME", "‣ Mɪss Yᴜᴍɪ Pʀᴏ⋆ ᴠ𝟸.𝟶") #⚠️replace
-ASSUSERNAME = getenv("ASSUSERNAME", "BROKNXASSISTANT") #⚠️Replace
-EVALOP = list(map(int, getenv("EVALOP", "1841914911").split())) 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOGGER_ID = int(getenv("LOGGER_ID", -1002094142057)) #⚠️REPLACE
+OWNER_USERNAME = getenv("OWNER_USERNAME", "II_HaRsH_YaDaV_II") #⚠️replace 
+BOT_USERNAME = getenv("BOT_USERNAME", "PS_Music_Yt_Bot") #⚠️replace
+BOT_NAME = getenv("BOT_NAME", "ꜱʜɪᴢᴜᴋᴀ x ᴍᴜꜱɪᴄ") #⚠️replace
+ASSUSERNAME = getenv("ASSUSERNAME", "ѕнιzυкα αѕѕιѕтαηт") #⚠️Replace
+EVALOP = list(map(int, getenv("EVALOP", "1750583099").split())) 
+MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://musicoxic:9ERpeGOTxckFV701@musicoxicz.kyrzfrv.mongodb.net/?retryWrites=true&w=majority&appName=musicoxicz)
+LOGGER_ID = int(getenv("LOGGER_ID", -1002108873378)) #⚠️REPLACE
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")
 DEEP_API = getenv("DEEP_API")
-OWNER_ID = int(getenv("OWNER_ID", 1841914911)) #⚠️REPLACE
+OWNER_ID = int(getenv("OWNER_ID", 1750583099)) #⚠️REPLACE
 
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/MRXBROKEN011/anniex") #⚠️Don't Change
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "github.com/Riyasahu2004/Test") #⚠️Don't Change
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master") #⚠️Don't Change
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support and contact information - Provide your own support channels
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+CB-VZRuEnP84NjRl") #⚠️Replace
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+CB-VZRuEnP84NjRl") #⚠️Replace
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Ps_Corporation_Com") #⚠️Replace
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+sW_L1vwSZ1Y4NDQ9") #⚠️Replace
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -55,7 +55,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 
 # Pyrogram session strings - You need to generate these yourself
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", BQFQySMAux_IdPMjJoLo8YLxDe4g4DwMsgpJ0H1ahPDr7KMTfTXSPUIg7XiPA58A77HvafMjNAJvQUXQCe0TRILm5XSSGYP1hgVBL-rr9Ix8b19K9av1uOh_MAXfwHlUpWDJGQo31SyVqJZggnzwMRt42J3XChBXT7mdUlMZHmGT3TX3Tp0a51Ko5N_ZYYC1riXkBE9zdsZBAxvSkvWbwFgIzXI-OL_e3sKxP_eRXYepDhhw5hezUnA0dFrb9VIPDlPBUf3SXy3vdLc4E82NrgnGlhtOOKumpYVlMnWjsiua8oF3D2xNWWNwQqfwQ2Gf7jARLj5a3zhXF-SFRX0esEXYVlaQugAAAAGg5MS6AA)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
